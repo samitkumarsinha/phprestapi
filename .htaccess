@@ -1,0 +1,3 @@
+#RewriteEngine On 
+#RewriteCond %{SERVER_PORT} 8888
+#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
