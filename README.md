@@ -1,3 +1,4 @@
 # phprestapi
 REST with JWT 
-composer install firebase /jwt
+$ composer require firebase/php-jwt
+
